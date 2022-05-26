@@ -3,7 +3,7 @@ const knex = require('../../config/knex') //import
 
 Model.knex(knex)
 
-class Users extends Model { //'Users' nya bebas namanya
+class Users extends Model {
     static get tableName(){
         return 'users'
     }
